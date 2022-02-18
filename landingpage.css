@@ -91,7 +91,7 @@
 }
 
 .frame {
-    background-image: url(/img/frame-2@1x.png);
+    background-image: url(img/frame-2@1x.png);
     background-position: 50% 50%;
     background-size: cover;
     height: 1529px;
