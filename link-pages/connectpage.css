@@ -300,6 +300,15 @@
     width: 1300px;
 }
 
+.social-icon {
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+.social-icon:hover {
+    color: #fbd784;
+}
+
 /* FOOTER */
 .footer {
     align-items: flex-start;
