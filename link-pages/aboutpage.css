@@ -77,7 +77,6 @@
 }
 
 /* HEADER */
-
 * {
     box-sizing: border-box;
 }
@@ -215,8 +214,7 @@
     color: #fbd784;
 }
 
-/* CONTENT GOES HERE */
-
+/* CONTENT */
 .content-1 {
     align-items: center;
     display: flex;

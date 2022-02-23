@@ -77,7 +77,6 @@
 }
 
 /* HEADER */
-
 * {
     box-sizing: border-box;
 }
@@ -215,7 +214,170 @@
     color: #fbd784;
 }
 
-/* CONTENT GOES HERE */
+/* CONTENT */
+.content {
+    align-items: center;
+    display: flex;
+    height: 1835px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 1442px;
+    width: 1920px;
+}
+
+.equipment {
+  color: var(--white);
+  font-family: var(--font-family-abel);
+  font-size: var(--font-size-xxxxxl);
+  font-weight: 400;
+  right: 1150px;
+  margin-left: 100px;
+  letter-spacing: 0;
+  line-height: 240px;
+  opacity: 0.1;
+  position: absolute;
+  top: 1500px;
+  white-space: nowrap;
+  width: 164px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+.content-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 2651px;
+  left: 200px;
+  position: absolute;
+  top: 1445px;
+  width: 1747px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.content-2 {
+  align-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  min-width: 1463px;
+}
+
+.content-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 712px;
+  margin-bottom: -15px;
+  width: 730px;
+}
+
+.tagline {
+  align-items: center;
+  display: flex;
+  height: 65px;
+  min-width: 599px;
+}
+
+.line {
+  background-color: var(--accent);
+  height: 4px;
+  margin-bottom: 3px;
+  width: 140px;
+}
+
+.my-hobbies {
+  letter-spacing: 6px;
+  margin-left: 73px;
+  min-height: 65px;
+  min-width: 384px;
+}
+
+.where-there-is {
+  letter-spacing: 0;
+  margin-top: 27px;
+  min-height: 600px;
+  width: 730px;
+}
+
+.image-1{
+  height: 732px;
+  margin-bottom: -15px;
+  object-fit: cover;
+  width: 952px;
+}
+
+.content-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  min-height: 732px;
+  width: 1463px;
+}
+
+.flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: -141px;
+  margin-top: 198px;
+  min-width: 1605px;
+}
+
+.image-3{
+  height: 732px;
+  margin-left: 46px;
+  object-fit: cover;
+  width: 567px;
+}
+
+.content-6 {
+  align-items: flex-end;
+  display: flex;
+  height: 780px;
+  overflow: hidden;
+  width: 992px;
+}
+
+.if-kaley{
+  letter-spacing: 0;
+  margin-bottom: -9px;
+  min-height: 789px;
+  width: 992px;
+  margin-left: 50px;
+}
+
+.flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 773px;
+  margin-left: -76.31px;
+  margin-top: -41px;
+  min-width: 1624px;
+}
+
+.content-5 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  height: 765px;
+  margin-left: 93px;
+  width: 964px;
+}
+
+.kaleys-passion {
+  letter-spacing: 0;
+  min-height: 765px;
+  width: 964px;
+}
+
+.image-2 {
+  height: 732px;
+  width: 567px;
+}
 
 /* FOOTER */
 .footer {
