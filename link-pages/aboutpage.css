@@ -217,6 +217,91 @@
 
 /* CONTENT GOES HERE */
 
+.content-1 {
+    align-items: center;
+    display: flex;
+    height: 1835px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 1442px;
+    width: 1920px;
+}
+
+.equipment {
+    color: var(--white);
+    font-family: var(--font-family-abel);
+    font-size: 200px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 240px;
+    margin-bottom: 21px;
+    margin-left: 100px;
+    min-height: 1680px;
+    opacity: 0.1;
+    width: 143px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+.flex-col-01 {
+    align-items: center;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -630px;
+    margin-left: 89px;
+    min-height: 2465px;
+    width: 1937px;
+}
+
+.image-1 {
+    height: 720px;
+    margin-right: 508.73px;
+    width: 742px;
+}
+
+.content-2 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 1745px;
+    width: 1600px;
+}
+  
+.tagline-01 {
+    align-items: flex-start;
+    display: flex;
+    height: 90px;
+    min-width: 1244px;
+    padding: 10px 0;
+}
+
+.line {
+    align-self: center;
+    background-color: var(--accent);
+    height: 4px;
+    margin-bottom: 6px;
+    width: 190px;
+}
+
+.about-kaley {
+    letter-spacing: 2px;
+    margin-left: 44px;
+    min-height: 65px;
+}
+
+.when-creating {
+    color: var(--white);
+    font-family: var(--font-family-abhaya_libre);
+    font-size: var(--font-size-xxl);
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-top: 27px;
+    min-height: 1628px;
+    width: 1300px;
+}
+
 /* FOOTER */
 .footer {
     align-items: flex-start;
