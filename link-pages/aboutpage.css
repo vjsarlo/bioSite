@@ -187,6 +187,7 @@
     margin-left: 393px;
     margin-top: 2px;
     min-width: 64px;
+    text-decoration: none;
 }
 
 .hobbies {
@@ -197,6 +198,7 @@
     margin-top: 2px;
     min-height: 23px;
     min-width: 55px;
+    text-decoration: none;
 }
 
 .connect {
@@ -206,6 +208,7 @@
     margin-left: 60px;
     margin-top: 2px;
     min-height: 23px;
+    text-decoration: none;
 }
 
 .connect:hover,
