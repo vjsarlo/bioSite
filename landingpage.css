@@ -603,7 +603,7 @@
     min-height: 32px;
     white-space: nowrap;
     width: 57px;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .about-her {
@@ -617,7 +617,7 @@
     min-height: 32px;
     white-space: nowrap;
     width: 74px;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .explore-kaley-mc-carthy {
@@ -645,7 +645,7 @@
     min-height: 32px;
     white-space: nowrap;
     width: 91px;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .valign-text-middle {
