@@ -78,7 +78,16 @@
 
 /* HEADER */
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+html, body {
+    max-width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .hidden,
@@ -88,9 +97,10 @@
 }
 
 .overlap-group-1 {
-    height: 4232px;
-    position: relative;
-    width: 1940px;
+    position: auto;
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
 }
 
 .frame {
@@ -102,7 +112,15 @@
     opacity: 0.5;
     position: absolute;
     top: 0;
-    width: 1920px;
+    width: 100%;
+}
+
+.slider {
+    height: 500px;
+    margin-left: 1100px;
+    position: absolute;
+    top: 230px;
+    width: 280px;
 }
 
 .content-top {
@@ -110,7 +128,7 @@
     display: flex;
     flex-direction: column;
     height: 197px;
-    left: 500px;
+    left: 300px;
     position: absolute;
     top: 287px;
     width: 950px;
@@ -121,7 +139,7 @@
     display: flex;
     height: 65px;
     min-width: 333px;
-    padding: 0 0px;
+    padding: 0px;
 }
 
 .rectangle {
@@ -163,7 +181,6 @@
     left: 80px;
     position: absolute;
     top: 64px;
-    width: 1760px;
 }
 
 .logo {
@@ -172,33 +189,34 @@
     font-size: var(--font-size-xl2);
     font-weight: 400;
     letter-spacing: 0.36px;
-    min-height: 42px;
-    width: 253px;
     text-underline-position: auto;
     height: 37px;
     width: 346px;
+    padding-top: 40px;
+    margin-left: 0px;
 }
 
 .about-me {
     cursor: pointer;
     transition: all 0.2s ease;
-    height: 23px;
     letter-spacing: 0;
-    margin-left: 393px;
+    margin-left: 200px;
     margin-top: 2px;
     min-width: 64px;
     text-decoration: none;
+    padding-top: 50px;
 }
 
 .hobbies {
     cursor: pointer;
     transition: all 0.2s ease;
     letter-spacing: 0;
-    margin-left: 66px;
+    margin-left: 60px;
     margin-top: 2px;
     min-height: 23px;
     min-width: 55px;
     text-decoration: none;
+    padding-top: 50px;
 }
 
 .connect {
@@ -209,6 +227,7 @@
     margin-top: 2px;
     min-height: 23px;
     text-decoration: none;
+    padding-top: 50px;
 }
 
 .connect:hover,
@@ -226,7 +245,7 @@
     overflow: hidden;
     position: absolute;
     top: 1442px;
-    width: 1920px;
+    width: 100%;
 }
 
 .equipment {
@@ -253,12 +272,12 @@
     margin-bottom: -630px;
     margin-left: 89px;
     min-height: 2465px;
-    width: 1937px;
+    width: 100%;
 }
 
 .image-1 {
     height: 720px;
-    margin-right: 508.73px;
+    margin-right: 300px;
     width: 742px;
 }
 
@@ -267,7 +286,7 @@
     display: flex;
     flex-direction: column;
     height: 1745px;
-    width: 1600px;
+    width: 100%;
 }
   
 .tagline-01 {
@@ -295,12 +314,11 @@
 .when-creating {
     color: var(--white);
     font-family: var(--font-family-abhaya_libre);
-    font-size: var(--font-size-xxl);
-    font-weight: 400;
+    font-size: var(--font-size-xl2);
     letter-spacing: 0;
     margin-top: 27px;
-    min-height: 1628px;
-    width: 1300px;
+    width: 100%;
+    max-width: 1000px;
 }
 
 /* FOOTER */
@@ -308,10 +326,7 @@
     align-items: flex-start;
     align-self: center;
     display: flex;
-    height: 190px;
-    margin-left: 9px;
-    margin-top: 57px;
-    min-width: 1529px;
+    width: auto;
 }
 
 .kaley-mccarthy {
@@ -319,9 +334,9 @@
     background-color: var(--bg);
     display: flex;
     flex-direction: column;
-    height: 4672px;
-    overflow: hidden;
-    width: 1920px;
+    height: 3600px;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 .flex-col {
@@ -330,7 +345,7 @@
     flex-direction: column;
     min-height: 190px;
     width: 319px;
-}
+    }
 
 .kaley {
     color: var(--white);
@@ -345,7 +360,7 @@
 .its-a-dangerous {
     letter-spacing: 0;
     line-height: 32px;
-    margin-top: 20px;
+    margin-top: 10px;
     min-height: 128px;
     width: 319px;
 }
@@ -355,10 +370,38 @@
     align-self: center;
     display: flex;
     flex-direction: column;
-    margin-bottom: 3px;
-    margin-left: 984px;
+    margin-bottom: 10px;
+    margin-left: 700px;
     min-height: 181px;
-    width: 232px;
+    width: 250px;
+}
+
+.home {
+    cursor: pointer;
+    transition: all 0.2s ease;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin-bottom: 0;
+    margin-right: 40.65px;
+    margin-top: 16px;
+    min-height: 32px;
+    white-space: nowrap;
+    width: 57px;
+    text-decoration: none !important;
+}
+
+.her-hobbies {
+    cursor: pointer;
+    transition: all 0.2s ease;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin-bottom: 0;
+    margin-right: 23.8px;
+    margin-top: 16px;
+    min-height: 32px;
+    white-space: nowrap;
+    width: 74px;
+    text-decoration: none !important;
 }
 
 .explore-kaley-mc-carthy {
@@ -375,32 +418,6 @@
     width: 224px;
 }
 
-.home {
-    cursor: pointer;
-    transition: all 0.2s ease;
-    letter-spacing: 0;
-    line-height: 32px;
-    margin-bottom: 0;
-    margin-right: 23.8px;
-    margin-top: 21px;
-    min-height: 32px;
-    white-space: nowrap;
-    width: 74px;
-}
-
-.her-hobbies {
-    cursor: pointer;
-    transition: all 0.2s ease;
-    letter-spacing: 0;
-    line-height: 32px;
-    margin-bottom: 0;
-    margin-right: 40.65px;
-    margin-top: 16px;
-    min-height: 32px;
-    white-space: nowrap;
-    width: 57px;
-}
-
 .connect-1 {
     cursor: pointer;
     transition: all 0.2s ease;
@@ -412,6 +429,7 @@
     min-height: 32px;
     white-space: nowrap;
     width: 91px;
+    text-decoration: none !important;
 }
 
 .valign-text-middle {
@@ -420,9 +438,10 @@
     justify-content: center;
 }
 
-.home:hover, 
-.connect-1:hover, 
-.her-hobbies:hover {
+.about-her:hover,
+.her-hobbies:hover,
+.connect-1:hover {
     color: #fbd784;
 }
+
 
