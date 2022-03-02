@@ -364,24 +364,22 @@ html, body {
     height: 700px;
     object-fit: cover;
     width: 500px;
-    margin-right: 0px;
+    margin-left: 50px;
 }
 
 .overlap-group-3 {
     height: 579px;
     margin-bottom: 75.37px;
-    margin-left: 100px;
+    margin-left: 35px;
     position: relative;
     width: 775px;
 }
 
 .equipment-02 {
-    left: 0;
     letter-spacing: 0;
     line-height: 240px;
     opacity: 0.1;
     position: absolute;
-    top: 0;
     white-space: nowrap;
     width: 243px;
 }
