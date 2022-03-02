@@ -77,9 +77,17 @@
 
 /* HEADER */
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
+html, body {
+    max-width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
 
 .hidden,
 .hidden * {
@@ -88,9 +96,10 @@
 }
 
 .overlap-group-1 {
-    height: 4232px;
-    position: relative;
-    width: 1940px;
+    position: auto;
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
 }
 
 .frame {
@@ -102,15 +111,15 @@
     opacity: 0.5;
     position: absolute;
     top: 0;
-    width: 1920px;
+    width: 100%;
 }
 
 .slider {
-    height: 440px;
-    left: 1663px;
+    height: 500px;
+    margin-left: 1100px;
     position: absolute;
-    top: 226px;
-    width: 277px;
+    top: 230px;
+    width: 280px;
 }
 
 .content-top {
@@ -118,7 +127,7 @@
     display: flex;
     flex-direction: column;
     height: 197px;
-    left: 500px;
+    left: 300px;
     position: absolute;
     top: 287px;
     width: 950px;
@@ -129,7 +138,7 @@
     display: flex;
     height: 65px;
     min-width: 333px;
-    padding: 0 0px;
+    padding: 0px;
 }
 
 .rectangle {
@@ -171,7 +180,6 @@
     left: 80px;
     position: absolute;
     top: 64px;
-    width: 1760px;
 }
 
 .logo {
@@ -180,33 +188,34 @@
     font-size: var(--font-size-xl2);
     font-weight: 400;
     letter-spacing: 0.36px;
-    min-height: 42px;
-    width: 253px;
     text-underline-position: auto;
     height: 37px;
     width: 346px;
+    padding-top: 40px;
+    margin-left: 0px;
 }
 
 .about-me {
     cursor: pointer;
     transition: all 0.2s ease;
-    height: 23px;
     letter-spacing: 0;
-    margin-left: 393px;
+    margin-left: 200px;
     margin-top: 2px;
     min-width: 64px;
     text-decoration: none;
+    padding-top: 50px;
 }
 
 .hobbies {
     cursor: pointer;
     transition: all 0.2s ease;
     letter-spacing: 0;
-    margin-left: 66px;
+    margin-left: 60px;
     margin-top: 2px;
     min-height: 23px;
     min-width: 55px;
     text-decoration: none;
+    padding-top: 50px;
 }
 
 .connect {
@@ -217,6 +226,7 @@
     margin-top: 2px;
     min-height: 23px;
     text-decoration: none;
+    padding-top: 50px;
 }
 
 .connect:hover,
@@ -234,25 +244,24 @@
     left: 271px;
     position: absolute;
     top: 1460px;
-    width: 1465px;
 }
 
 .content-1 {
     align-items: center;
     display: flex;
     margin-left: 1px;
-    min-width: 1463px;
+    min-width: 100%;
 }
 
 .overlap-group-2 {
     height: 579px;
     margin-bottom: 72.58px;
     position: relative;
-    width: 789px;
+    width: 500px;
 }
 
 .equipment-01 {
-    left: 0;
+    right: 450px;
     letter-spacing: 0;
     line-height: 240px;
     opacity: 0.1;
@@ -267,7 +276,7 @@
     display: flex;
     flex-direction: column;
     height: 377px;
-    left: 157px;
+    left: -40px;
     position: absolute;
     top: 202px;
     width: 632px;
@@ -337,30 +346,31 @@
 }
 
 .image-1 {
-    height: 728px;
-    margin-left: 101px;
+    height: 700px;
+    margin-left: 125px;
     object-fit: cover;
-    width: 573px;
+    width: 500px;
 }
 
 .content-3 {
     align-items: center;
     display: flex;
-    margin-left: 1px;
+    margin-left: -230px;
     margin-top: 200px;
-    min-width: 1463px;
+    width: 100%;
 }
 
 .image-2 {
-    height: 732px;
+    height: 700px;
     object-fit: cover;
-    width: 567px;
+    width: 500px;
+    margin-right: 0px;
 }
 
 .overlap-group-3 {
     height: 579px;
     margin-bottom: 75.37px;
-    margin-left: 114px;
+    margin-left: 100px;
     position: relative;
     width: 775px;
 }
@@ -448,23 +458,24 @@
     align-items: flex-start;
     display: flex;
     margin-top: 200px;
-    min-width: 1465px;
+    width: 100%;
 }
 
 .equipment-2 {
+    margin-left: -200px;
     letter-spacing: 0;
     line-height: 240px;
-    margin-top: 48.13px;
+    margin-top: 0px;
     min-height: 304px;
     opacity: 0.1;
     width: 249px;
 }
 
 .image-3 {
-    height: 912px;
-    margin-left: 643px;
+    height: 800px;
+    margin-left: 575px;
     object-fit: cover;
-    width: 574px;
+    width: 500px;
 }
 
 .content-7 {
@@ -472,9 +483,9 @@
     display: flex;
     flex-direction: column;
     height: 529px;
-    left: 419px;
+    left: 220px;
     position: absolute;
-    top: 3570px;
+    top: 3465px;
     width: 632px;
 }
 
@@ -539,10 +550,7 @@
     align-items: flex-start;
     align-self: center;
     display: flex;
-    height: 190px;
-    margin-left: 9px;
-    margin-top: 57px;
-    min-width: 1529px;
+    width: auto;
 }
 
 .kaley-mccarthy {
@@ -550,9 +558,9 @@
     background-color: var(--bg);
     display: flex;
     flex-direction: column;
-    height: 4672px;
-    overflow: hidden;
-    width: 1920px;
+    height: 4500px;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 .flex-col {
@@ -576,7 +584,7 @@
 .its-a-dangerous {
     letter-spacing: 0;
     line-height: 32px;
-    margin-top: 20px;
+    margin-top: 10px;
     min-height: 128px;
     width: 319px;
 }
@@ -586,10 +594,10 @@
     align-self: center;
     display: flex;
     flex-direction: column;
-    margin-bottom: 3px;
-    margin-left: 984px;
+    margin-bottom: 10px;
+    margin-left: 700px;
     min-height: 181px;
-    width: 232px;
+    width: 250px;
 }
 
 .connect-1 {
@@ -659,8 +667,5 @@
 .connect-1:hover {
     color: #fbd784;
 }
-
-
-
 
 
