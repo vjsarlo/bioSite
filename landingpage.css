@@ -115,12 +115,44 @@ html, body {
 }
 
 .slider {
-    height: 500px;
-    margin-left: 1100px;
-    position: absolute;
-    top: 230px;
-    width: 280px;
+    top: 575px;
+    width: 5%;
+    position: fixed;
+    display: block;
+    list-style-type: none;
+    z-index: 1;
 }
+
+.slider ul {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    list-style-type: none;
+}
+
+.slider li {
+    padding: 2px 0;
+}
+
+.slider a {
+    --fill-color: var(--accent);
+    position: relative;
+    display: block;
+    padding: 2px 0;
+    font: 1000 2.5rem sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px var(--fill-color);
+    background: linear-gradient(var(--fill-color) 0 100%) left / 0 no-repeat;
+    color: transparent;
+    background-clip: text;
+    transition: 0.5s linear;
+}
+
+.slider a:hover {
+    background-size: 100%;
+}
+
 
 .content-top {
     align-items: flex-start;
@@ -233,6 +265,7 @@ html, body {
 .hobbies:hover,
 .about-me:hover {
     color: #fbd784;
+    transform: scale(2.1);
 }
 
 /* CONTENT */
@@ -253,7 +286,7 @@ html, body {
     min-width: 100%;
 }
 
-.overlap-group-2 {
+#overlap-group-2 {
     height: 579px;
     margin-bottom: 72.58px;
     position: relative;
@@ -319,7 +352,7 @@ html, body {
 }
 
 .more:hover {
-    transform: scale(1.1);
+    transform: scale(1.5);
 }
   
 .more {
@@ -352,7 +385,7 @@ html, body {
     width: 500px;
 }
 
-.content-3 {
+#content-3 {
     align-items: center;
     display: flex;
     margin-left: -230px;
@@ -426,7 +459,7 @@ html, body {
 }
 
 .more-1:hover {
-    transform: scale(1.1);
+    transform: scale(1.5);
 }
   
 .more-1 {
@@ -452,14 +485,14 @@ html, body {
     width: 24px;
 }
 
-.content-5 {
+#content-5 {
     align-items: flex-start;
     display: flex;
     margin-top: 200px;
     width: 100%;
 }
 
-.equipment-2 {
+.equipment-03 {
     margin-left: -200px;
     letter-spacing: 0;
     line-height: 240px;
@@ -517,7 +550,7 @@ html, body {
 }
 
 .more-2:hover {
-    transform: scale(1.1);
+    transform: scale(1.5);
 }
   
 .more-2 {

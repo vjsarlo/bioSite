@@ -234,6 +234,7 @@ html, body {
 .hobbies:hover,
 .about-me:hover {
     color: #fbd784;
+    transform: scale(2.1);
 }
 
 /* CONTENT */
@@ -438,7 +439,7 @@ html, body {
     justify-content: center;
 }
 
-.about-her:hover,
+.home:hover,
 .her-hobbies:hover,
 .connect-1:hover {
     color: #fbd784;
